@@ -9,6 +9,6 @@ class CreateUsers < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :users
+    drt.string :phone
   end
 end
